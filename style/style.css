@@ -80,7 +80,7 @@ body{
 
 .rutinas-card{
     margin: 20px auto;
-    width: 420px;
+    width: 360px;
     height: 640px;
     border-radius: 7px;
     background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
@@ -116,7 +116,7 @@ body{
 .remoCuello,
 .vuelos,
 .elevacionPost{
-    width: 420px;
+    width: 100%;
     height: 60%;
     border-radius: 7px 7px 0 0;
 }
@@ -175,6 +175,56 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.remo{
+    background: url(../media/ejercicios/RemoBarra.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.remoMancuerna{
+    background: url(../media/ejercicios/remoconmancuerna.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jalonPolea{
+    background: url(../media/ejercicios/JalonAlPecho.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jalonSupino{
+    background: url(../media/ejercicios/JalonSupino.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.curlBiceps{
+    background: url(../media/ejercicios/CurlBicepsez.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.curlAlternado{
+    background: url(../media/ejercicios/CurlAlternado.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bancaScott{
+    background: url(../media/ejercicios/CurlScott.gif);
+}
+
+.sentadillas{
+    background: url(../media/ejercicios/SentadillaBarra.gif);
 }
 
 .series{
