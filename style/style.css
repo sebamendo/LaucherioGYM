@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(../media/_968e46ca-d223-4b41-8e32-acd75347460a.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #dedede;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+#home{
+    margin-top: 12px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.arrow{
+    position: fixed;
+    bottom: 14px;
+    right: 14px;
+    font-size: 28px;
+    z-index: 10;
+}
+
+.arrow i{
+    color: #dedede;
+}
+
+.nav{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.nav .nav-link{
+    color: #dedede;
+    font-size: 18px;
+}
+
+.nav-pills .nav-link.active{
+    background: transparent;
+    border: none;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.rutinas-list{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    margin: 0 25px;
+    border-radius: 7px;
+}
+
+.rutinas-list{
+    padding: 7px;
+    margin-bottom: 20px;
+}
+
+.rutinas-list ul{
+    list-style: none;
+    margin: 12px auto;
+}
+
+.rutinas-list ul li{
+    margin: 6px;
+    font-size: 18px;
+}
+
+.rutinas-list ul li a{
+    color: #dedede;
+    text-decoration: none;
+}
+
+.rutinas-card{
+    margin: 20px auto;
+    width: 420px;
+    height: 640px;
+    border-radius: 7px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+    box-shadow: 4px 4px 7px #616161,
+    -4px -4px 7px #989898;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.banca,
+.inclinado,
+.declinado,
+.apertura,
+.frances,
+.extPolea,
+.bancaCerrado,
+.trasNuca,
+.remo,
+.remoMancuerna,
+.jalonPolea,
+.jalonSupino,
+.curlBiceps,
+.curlAlternado,
+.bancaScott,
+.sentadillas,
+.elevacionTalon,
+.bancoCuadr,
+.pesoMuerto,
+.estocadas,
+.pressMilitar,
+.remoCuello,
+.vuelos,
+.elevacionPost{
+    width: 420px;
+    height: 60%;
+    border-radius: 7px 7px 0 0;
+}
+
+.banca{
+    background: url(../media/ejercicios/PressBancaBarra.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inclinado{
+    background: url(../media/ejercicios/PressInclinadoBarra.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.declinado{
+    background: url(../media/ejercicios/PressDeclinadoBarra.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apertura{
+    background: url(../media/ejercicios/AperturaPlano.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frances{
+    background: url(../media/ejercicios/PresssFrances.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.extPolea{
+    background: url(../media/ejercicios/extensionTricep.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bancaCerrado{
+    background: url(../media/ejercicios/PresssFrances.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trasNuca{
+    background: url(../media/ejercicios/TricepsTrascunaMancuerna.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.series{
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
