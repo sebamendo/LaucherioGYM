@@ -80,7 +80,7 @@ body{
 
 .rutinas-card{
     margin: 20px auto;
-    width: 360px;
+    width: 320px;
     height: 620px;
     border-radius: 7px;
     background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
