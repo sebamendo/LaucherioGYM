@@ -90,7 +90,7 @@ body{
 
 .rutinas-card{
     margin: 30px auto 40px auto;
-    width: 280px;
+    width: 270px;
     height: 700px;
     border-radius: 7px;
     background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
@@ -154,7 +154,7 @@ body{
 }
 
 .gemConManc{
-    background: url(../media/ejercicios/gemelosConMancuerna.png);
+    background: url(../media/ejercicios2.0/elevacion-talones.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +168,7 @@ body{
 }
 
 .vuelosFront{
-    background: url(../media/ejercicios/vuelosFrontales.gif);
+    background: url(../media/ejercicios2.0/vuelos-frontales.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +196,7 @@ body{
 }
 
 .zancLat{
-    background: url(../media/ejercicios/estocadas-lateralesF.gif);
+    background: url(../media/ejercicios2.0/estocadas-laterales.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,7 +238,7 @@ body{
 }
 
 .sentadillaManc{
-    background: url(../media/ejercicios/SentadillaMancuerna.gif);
+    background: url(../media/ejercicios2.0/sentadilla-mancuerna.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -252,14 +252,14 @@ body{
 }
 
 .sentadillaZumo{
-    background: url(../media/ejercicios/sentadillaZumoF.gif);
+    background: url(../media/ejercicios2.0/sentadilla-zumo.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .sentadillaBulgara{
-    background: url(../media/ejercicios/SentadillaBulgara.gif);
+    background: url(../media/ejercicios2.0/sentadilla-bulgara.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,7 +280,7 @@ body{
 }
 
 .elevacionPost{
-    background: url(../media/ejercicios2.0/vuelos-laterales.gif);
+    background: url(../media/ejercicios2.0/elevacion-posterior.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

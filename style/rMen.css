@@ -90,7 +90,7 @@ body{
 
 .rutinas-card{
     margin: 30px auto 40px auto;
-    width: 280px;
+    width: 270px;
     height: 700px;
     border-radius: 7px;
     background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
@@ -180,7 +180,7 @@ body{
 }
 
 .bancaCerrado{
-    background: url(../media/ejercicios/PresssFrances.gif);
+    background: url(../media/ejercicios2.0/press-banca-cerrada.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,6 +237,9 @@ body{
 
 .bancaScott{
     background: url(../media/ejercicios2.0/curl-banco-scott.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sentadillas{
