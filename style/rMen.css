@@ -1,14 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-body{
+body {
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(../media/_968e46ca-d223-4b41-8e32-acd75347460a.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/_968e46ca-d223-4b41-8e32-acd75347460a.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,13 +18,13 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
-#home{
+#home {
     margin-top: 12px;
     font-weight: 700;
     margin-bottom: 12px;
 }
 
-.arrow{
+.arrow {
     position: fixed;
     bottom: 14px;
     right: 14px;
@@ -32,7 +32,7 @@ body{
     z-index: 10;
 }
 
-.index{
+.index {
     position: fixed;
     bottom: 14px;
     left: 14px;
@@ -41,63 +41,62 @@ body{
 }
 
 .arrow i,
-.index i{
+.index i {
     color: #dedede;
+    filter: drop-shadow(0 0 3px rgb(211, 90, 90));
 }
 
-.nav{
+.nav {
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-.nav .nav-link{
+.nav .nav-link {
     color: #dedede;
     font-size: 18px;
 }
 
-.nav-pills .nav-link.active{
+.nav-pills .nav-link.active {
+    color: #d35a5a;
     background: transparent;
     border: none;
     transform: scale(1.1);
     transition: .2s;
 }
 
-.rutinas-list{
-    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+.rutinas-list {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     margin: 0 25px;
     border-radius: 7px;
 }
 
-.rutinas-list{
+.rutinas-list {
     padding: 7px;
     margin-bottom: 20px;
 }
 
-.rutinas-list ul{
+.rutinas-list ul {
     list-style: none;
     margin: 12px auto;
 }
 
-.rutinas-list ul li{
+.rutinas-list ul li {
     margin: 20px 0;
     font-size: 18px;
 }
 
-.rutinas-list ul li a{
+.rutinas-list ul li a {
     color: #dedede;
     text-decoration: none;
 }
 
-.rutinas-card{
+.rutinas-card {
     margin: 30px auto 40px auto;
-    width: 270px;
-    height: 700px;
+    width: 75%;
+    height: 85vh;
     border-radius: 7px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
-    box-shadow: 4px 4px 7px #616161,
-    6px 6px 7px #616161,
-    -4px -4px 7px #989898,
-    -6px -6px 7px #989898;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    box-shadow: 4px 4px 7px #616161, 6px 6px 7px #616161, -4px -4px 7px #989898, -6px -6px 7px #989898;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
@@ -127,196 +126,216 @@ body{
 .pressMilitar,
 .remoCuello,
 .vuelos,
-.elevacionPost{
+.elevacionPost {
     width: 100%;
     height: 65%;
     border-radius: 7px 7px 0 0;
-    -webkit-border-radius: 7px 7px 0 0;
-    -moz-border-radius: 7px 7px 0 0;
-    -ms-border-radius: 7px 7px 0 0;
-    -o-border-radius: 7px 7px 0 0;
 }
 
-.banca{
+.banca {
     background: url(../media/ejercicios2.0/press-plano.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.inclinado{
+.inclinado {
     background: url(../media/ejercicios2.0/press-inclinado.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.declinado{
+.declinado {
     background: url(../media/ejercicios2.0/press-declinado.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.apertura{
+.apertura {
     background: url(../media/ejercicios2.0/aperturas-banco-plano.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.frances{
+.frances {
     background: url(../media/ejercicios2.0/press-frances.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.extPolea{
+.extPolea {
     background: url(../media/ejercicios2.0/extension-polea-alta.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bancaCerrado{
+.bancaCerrado {
     background: url(../media/ejercicios2.0/press-banca-cerrada.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.trasNuca{
+.trasNuca {
     background: url(../media/ejercicios2.0/tricep-trasnuca.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.remo{
+.remo {
     background: url(../media/ejercicios2.0/Remo-barra.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.remoMancuerna{
+.remoMancuerna {
     background: url(../media/ejercicios2.0/Remo-mancuerna.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.jalonPolea{
+.jalonPolea {
     background: url(../media/ejercicios2.0/Jalon-con-polea.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.jalonSupino{
+.jalonSupino {
     background: url(../media/ejercicios2.0/jalon-supino.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.curlBiceps{
+.curlBiceps {
     background: url(../media/ejercicios2.0/biceps-barra-ez.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.curlAlternado{
+.curlAlternado {
     background: url(../media/ejercicios2.0/curl-alterno-banco-inclinado.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bancaScott{
+.bancaScott {
     background: url(../media/ejercicios2.0/curl-banco-scott.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sentadillas{
+.sentadillas {
     background: url(../media/ejercicios2.0/sentadillas.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.elevacionTalon{
+.elevacionTalon {
     background: url(../media/ejercicios2.0/elevacion-talones.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bancoCuadr{
+.bancoCuadr {
     background: url(../media/ejercicios2.0/banco-cuadriceps.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.pesoMuerto{
+.pesoMuerto {
     background: url(../media/ejercicios2.0/peso-muerto.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.estocadas{
+.estocadas {
     background: url(../media/ejercicios2.0/estocada.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.pressMilitar{
+.pressMilitar {
     background: url(../media/ejercicios2.0/Press-militar-sentado.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.remoCuello{
+.remoCuello {
     background: url(../media/ejercicios2.0/Jalon-menton.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.vuelos{
+.vuelos {
     background: url(../media/ejercicios2.0/vuelos-laterales.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.elevacionPost{
+.elevacionPost {
     background: url(../media/ejercicios2.0/elevacion-posterior.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.series{
-    margin-top: 15px;
-    padding-bottom: 15px;
-}
-
-.series p{
+.series p {
     margin: 7px 0;
     font-size: 18px;
 }
 
-.series .titulo-series{
+.series .titulo-series {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+.opaque {
+    filter: brightness(50%);
+}
+
+.form-check{
+    margin: 10px 0;
+}
+
+.form-check-input{
+    width: 20px;
+    background: transparent;
+}
+
+label{
+    margin: 0 10px;
+}
+
+
+.form-check-input:checked{
+    background: #d35a5a;
+    border-color: #d35a5aa2;
+}
+
+.form-check-input:focus{
+    border-color: #cf7f7f;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgb(211, 90, 90, .4);
 }

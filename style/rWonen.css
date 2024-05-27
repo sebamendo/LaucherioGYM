@@ -1,14 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-body{
+body {
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(../media/_968e46ca-d223-4b41-8e32-acd75347460a.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/_968e46ca-d223-4b41-8e32-acd75347460a.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,13 +18,13 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
-#home{
+#home {
     margin-top: 12px;
     font-weight: 700;
     margin-bottom: 12px;
 }
 
-.arrow{
+.arrow {
     position: fixed;
     bottom: 14px;
     right: 14px;
@@ -32,7 +32,7 @@ body{
     z-index: 10;
 }
 
-.index{
+.index {
     position: fixed;
     bottom: 14px;
     left: 14px;
@@ -41,67 +41,67 @@ body{
 }
 
 .arrow i,
-.index i{
+.index i {
     color: #dedede;
+    filter: drop-shadow(0 0 3px rgb(211, 90, 90));
 }
 
-.nav{
+.nav {
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-.nav .nav-link{
+.nav .nav-link {
     color: #dedede;
     font-size: 18px;
 }
 
-.nav-pills .nav-link.active{
+.nav-pills .nav-link.active {
+    color: #d35a5a;
     background: transparent;
     border: none;
     transform: scale(1.1);
     transition: .2s;
 }
 
-.rutinas-list{
-    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+.rutinas-list {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     margin: 0 25px;
     border-radius: 7px;
 }
 
-.rutinas-list{
+.rutinas-list {
     padding: 7px;
     margin-bottom: 20px;
 }
 
-.rutinas-list ul{
+.rutinas-list ul {
     list-style: none;
     margin: 12px auto;
 }
 
-.rutinas-list ul li{
+.rutinas-list ul li {
     margin: 20px 0;
     font-size: 18px;
 }
 
-.rutinas-list ul li a{
+.rutinas-list ul li a {
     color: #dedede;
     text-decoration: none;
 }
 
-.rutinas-card{
+.rutinas-card {
     margin: 30px auto 40px auto;
-    width: 270px;
-    height: 700px;
+    width: 70%;
+    height: 90vh;
     border-radius: 7px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
-    box-shadow: 4px 4px 7px #616161,
-    -4px -4px 7px #989898;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    box-shadow: 4px 4px 7px #616161, 6px 6px 7px #616161, -4px -4px 7px #989898, -6px -6px 7px #989898;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
 }
-
 
 .estocada,
 .pesoMuertoRumano,
@@ -126,160 +126,160 @@ body{
 .sentadillaBulgara,
 .hipTrh,
 .jalonSupino,
-.elevacionPost{
+.elevacionPost {
     width: 100%;
     height: 65%;
     border-radius: 7px 7px 0 0;
 }
 
-.estocada{
+.estocada {
     background: url(../media/ejercicios2.0/estocada.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.pesoMuertoRumano{
+.pesoMuertoRumano {
     background: url(../media/ejercicios2.0/peso-rumano.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bancCuadriceps{
+.bancCuadriceps {
     background: url(../media/ejercicios2.0/banco-cuadriceps.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.gemConManc{
+.gemConManc {
     background: url(../media/ejercicios2.0/elevacion-talones.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.vuelosLat{
+.vuelosLat {
     background: url(../media/ejercicios2.0/vuelos-laterales.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.vuelosFront{
+.vuelosFront {
     background: url(../media/ejercicios2.0/vuelos-frontales.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.extTrasNuca{
+.extTrasNuca {
     background: url(../media/ejercicios2.0/tricep-trasnuca.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bicepsBarra{
+.bicepsBarra {
     background: url(../media/ejercicios2.0/biceps-barra-ez.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.pesoMuerto{
+.pesoMuerto {
     background: url(../media/ejercicios2.0/peso-muerto.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.zancLat{
+.zancLat {
     background: url(../media/ejercicios2.0/estocadas-laterales.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.curlFem{
+.curlFem {
     background: url(../media/ejercicios2.0/Curl-Femoral.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sentadillasbarra{
+.sentadillasbarra {
     background: url(../media/ejercicios2.0/sentadillas.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.jalonPecho{
+.jalonPecho {
     background: url(../media/ejercicios2.0/Jalon-con-polea.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.extTricepsPolea{
+.extTricepsPolea {
     background: url(../media/ejercicios2.0/extension-polea-alta.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.curlBicepsalt{
+.curlBicepsalt {
     background: url(../media/ejercicios2.0/curl-alterno-banco-inclinado.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sentadillaManc{
+.sentadillaManc {
     background: url(../media/ejercicios2.0/sentadilla-mancuerna.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.zancada{
+.zancada {
     background: url(../media/ejercicios2.0/estocada.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sentadillaZumo{
+.sentadillaZumo {
     background: url(../media/ejercicios2.0/sentadilla-zumo.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sentadillaBulgara{
+.sentadillaBulgara {
     background: url(../media/ejercicios2.0/sentadilla-bulgara.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.hipTrh{
+.hipTrh {
     background: url(../media/ejercicios2.0/hip-thrust.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.jalonSupino{
+.jalonSupino {
     background: url(../media/ejercicios2.0/jalon-supino.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.elevacionPost{
+.elevacionPost {
     background: url(../media/ejercicios2.0/elevacion-posterior.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -287,28 +287,56 @@ body{
 }
 
 #zonaMedia,
-#zonaMediaActiva{
+#zonaMediaActiva {
     height: auto;
 }
 
 
-.series{
-    margin-top: 15px;
-    padding-bottom: 15px;
-}
-
-.titulo{
-    padding: 0 20px;
-    padding-top: 25px;
-}
-
-.series p{
+.series p {
     margin: 7px 0;
     font-size: 18px;
 }
 
-.series .titulo-series{
+.series .titulo-series {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.opaque {
+    filter: brightness(50%);
+}
+
+.form-check {
+    margin: 10px 0;
+}
+
+.form-check-input {
+    width: 20px;
+    background: transparent;
+}
+
+label {
+    margin: 0 10px;
+}
+
+
+.form-check-input:checked {
+    background: #d35a5a;
+    border-color: #d35a5aa2;
+}
+
+.form-check-input:focus {
+    border-color: #cf7f7f;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgb(211, 90, 90, .4);
+}
+
+.form-check .form-check-input{
+    float: none;
+    margin: 0;
+}
+
+.series.add{
+    margin-bottom: 50px;
 }
